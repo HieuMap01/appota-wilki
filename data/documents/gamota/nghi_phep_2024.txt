@@ -1,0 +1,32 @@
+---
+doc_id: DOC-GMT-HR-001
+doc_family_id: quy-dinh-nghi-phep
+don_vi: gamota
+cap_bac: ["nhan_vien", "team_lead", "manager", "director"]
+ngay_hieu_luc: "2024-01-01"
+trang_thai: active
+uu_tien_cap: 2
+loai_tai_lieu: HR
+---
+
+# QUY ĐỊNH NGHỈ PHÉP — GAMOTA (2024)
+**Ngày ban hành:** 01/01/2024 | **Áp dụng cho:** Toàn bộ nhân sự Gamota
+
+## 1. Ngày nghỉ phép năm
+- Nhân viên chính thức: **15 ngày/năm** (cao hơn quy định Tập đoàn do đặc thù ngành game)
+- Nhân viên thâm niên trên 3 năm: **17 ngày/năm**
+- Nhân viên thâm niên trên 7 năm: **20 ngày/năm**
+
+## 2. Quy trình xin nghỉ phép
+1. Gửi request qua hệ thống Jira HR hoặc Slack channel #hr-requests ít nhất **2 ngày làm việc** trước.
+2. Team Lead phê duyệt trong vòng 1 ngày làm việc.
+3. Với nghỉ trên 5 ngày liên tục: cần thêm phê duyệt của Manager.
+
+## 3. Nghỉ phép đặc biệt của Gamota
+- **Nghỉ game launch:** 2 ngày nghỉ thưởng sau mỗi lần launch game thành công.
+- **Nghỉ birthday:** 1 ngày nghỉ sinh nhật có hưởng lương.
+- **Nghỉ sức khỏe tâm thần (Mental health day):** 2 ngày/năm không cần lý do.
+
+## 4. Lưu ý
+- Ngày phép không dùng hết: chuyển tối đa **7 ngày** sang năm sau (cao hơn Tập đoàn).
+- Quy định này ưu tiên hơn quy định Tập đoàn với nhân sự Gamota.

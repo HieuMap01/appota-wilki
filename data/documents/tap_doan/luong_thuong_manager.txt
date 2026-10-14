@@ -1,0 +1,29 @@
+---
+doc_id: DOC-TD-FIN-001
+doc_family_id: chinh-sach-luong-thuong-cap-cao
+don_vi: tap_doan
+cap_bac: ["manager", "director"]
+ngay_hieu_luc: "2024-01-01"
+trang_thai: active
+uu_tien_cap: 1
+loai_tai_lieu: Finance
+---
+
+# CHÍNH SÁCH LƯƠNG THƯỞNG CẤP QUẢN LÝ — MẬT
+**Phân loại: BÍ MẬT — Chỉ dành cho Manager trở lên**
+**Ngày ban hành:** 01/01/2024
+
+## 1. Cơ cấu lương Manager
+- Lương cơ bản: Theo thang lương Band M1-M4 (chi tiết trong phụ lục riêng).
+- KPI bonus: 15-30% lương cơ bản/quý nếu đạt target.
+- Stock option: Theo chương trình ESOP riêng.
+
+## 2. Cơ cấu lương Director
+- Lương cơ bản: Theo thang lương Band D1-D3.
+- Performance bonus: 20-50% lương cơ bản/năm.
+- Long-term incentive: Theo quyết định của HĐQT.
+
+## 3. Điều khoản bảo mật
+- Tài liệu này được phân loại BÍ MẬT.
+- Không được chia sẻ với nhân viên cấp dưới Manager.
+- Vi phạm sẽ bị xử lý theo quy định kỷ luật công ty.

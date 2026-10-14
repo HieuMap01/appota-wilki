@@ -1,0 +1,24 @@
+---
+doc_id: DOC-GMT-HR-001-OLD
+doc_family_id: quy-dinh-nghi-phep
+don_vi: gamota
+cap_bac: ["nhan_vien", "team_lead", "manager", "director"]
+ngay_hieu_luc: "2023-01-01"
+trang_thai: archived
+uu_tien_cap: 2
+loai_tai_lieu: HR
+---
+
+# QUY ĐỊNH NGHỈ PHÉP — GAMOTA (2023) [ĐÃ HẾT HIỆU LỰC]
+**Ngày ban hành:** 01/01/2023 | **Trạng thái: HẾT HIỆU LỰC từ 01/01/2024**
+
+## 1. Ngày nghỉ phép năm
+- Nhân viên chính thức: **12 ngày/năm**
+- Nhân viên thâm niên trên 5 năm: **14 ngày/năm**
+
+## 2. Quy trình xin nghỉ phép
+1. Gửi email cho HR ít nhất 3 ngày trước.
+2. Chờ phê duyệt từ quản lý.
+
+## 3. Lưu ý
+- Tài liệu này đã hết hiệu lực. Vui lòng tham khảo quy định 2024.

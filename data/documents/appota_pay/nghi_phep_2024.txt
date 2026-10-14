@@ -1,0 +1,30 @@
+---
+doc_id: DOC-APY-HR-001
+doc_family_id: quy-dinh-nghi-phep
+don_vi: appota_pay
+cap_bac: ["nhan_vien", "team_lead", "manager", "director"]
+ngay_hieu_luc: "2024-01-01"
+trang_thai: active
+uu_tien_cap: 2
+loai_tai_lieu: HR
+---
+
+# QUY ĐỊNH NGHỈ PHÉP — APPOTA PAY (2024)
+**Ngày ban hành:** 01/01/2024 | **Áp dụng cho:** Toàn bộ nhân sự Appota Pay
+
+## 1. Ngày nghỉ phép năm
+- Nhân viên chính thức: **14 ngày/năm**
+- Nhân viên thâm niên trên 5 năm: **16 ngày/năm**
+- Ghi chú: Do đặc thù fintech phải tuân thủ quy định SBV, nghỉ phép cần thông báo trước để đảm bảo coverage.
+
+## 2. Quy trình xin nghỉ phép
+1. Gửi request qua hệ thống HR Portal ít nhất **5 ngày làm việc** trước (nghiêm ngặt hơn do yêu cầu compliance).
+2. Cần xác nhận người backup trong thời gian nghỉ.
+3. Team Lead và Compliance Officer đồng phê duyệt.
+
+## 3. Nghỉ phép đặc biệt
+- **Nghỉ đào tạo bắt buộc:** Không tính vào ngày phép năm.
+- **Nghỉ kiểm toán:** Không áp dụng nghỉ phép trong 2 tuần kiểm toán định kỳ.
+
+## 4. Lưu ý
+- Quy định này ưu tiên hơn quy định Tập đoàn với nhân sự Appota Pay.

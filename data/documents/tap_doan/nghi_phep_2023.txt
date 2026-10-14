@@ -1,0 +1,33 @@
+---
+doc_id: DOC-TD-HR-001
+doc_family_id: quy-dinh-nghi-phep
+don_vi: tap_doan
+cap_bac: ["nhan_vien", "team_lead", "manager", "director"]
+ngay_hieu_luc: "2023-01-01"
+trang_thai: active
+uu_tien_cap: 1
+loai_tai_lieu: HR
+---
+
+# QUY ĐỊNH NGHỈ PHÉP — APPOTA GROUP (CẤP TẬP ĐOÀN)
+**Ngày ban hành:** 01/01/2023 | **Áp dụng cho:** Toàn bộ nhân sự Appota Group
+
+## 1. Ngày nghỉ phép năm
+- Nhân viên chính thức: **12 ngày/năm**
+- Nhân viên có thâm niên trên 5 năm: **14 ngày/năm**
+- Nhân viên có thâm niên trên 10 năm: **16 ngày/năm**
+
+## 2. Quy trình xin nghỉ phép
+1. Gửi đơn xin nghỉ phép qua hệ thống HR ít nhất **3 ngày làm việc** trước ngày nghỉ.
+2. Chờ phê duyệt từ quản lý trực tiếp.
+3. Sau khi được phê duyệt, hệ thống sẽ tự động cập nhật số ngày phép còn lại.
+
+## 3. Các loại nghỉ phép khác
+- Nghỉ ốm: Tối đa **5 ngày/năm** có hưởng lương (cần giấy xác nhận của bác sĩ từ ngày thứ 2 trở đi).
+- Nghỉ cưới: **3 ngày** (bản thân) hoặc **1 ngày** (con cái/anh chị em ruột).
+- Nghỉ tang: **3 ngày** (bố/mẹ/vợ/chồng/con); **1 ngày** (ông/bà/anh/chị/em ruột).
+
+## 4. Lưu ý
+- Ngày phép không sử dụng hết trong năm sẽ được chuyển sang năm sau tối đa **5 ngày**.
+- Không được bán ngày phép.
+- Quy định này là quy định nền tảng. Các công ty con có thể áp dụng chính sách riêng tốt hơn nhưng không thấp hơn quy định này.

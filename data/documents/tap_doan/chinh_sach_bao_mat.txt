@@ -1,0 +1,27 @@
+---
+doc_id: DOC-TD-SEC-001
+doc_family_id: chinh-sach-bao-mat-thong-tin
+don_vi: tap_doan
+cap_bac: ["nhan_vien", "team_lead", "manager", "director"]
+ngay_hieu_luc: "2024-06-01"
+trang_thai: active
+uu_tien_cap: 1
+loai_tai_lieu: Security
+---
+
+# CHÍNH SÁCH BẢO MẬT THÔNG TIN — APPOTA GROUP
+
+## 1. Phân loại thông tin
+- **Công khai:** Thông tin press release, sản phẩm ra mắt.
+- **Nội bộ:** Thông tin chỉ dùng trong nội bộ công ty.
+- **Bí mật:** Chiến lược kinh doanh, số liệu tài chính, thông tin nhân sự nhạy cảm.
+- **Tuyệt mật:** Thông tin M&A, sáng chế chưa đăng ký.
+
+## 2. Quy định sử dụng thiết bị
+- Không sử dụng thiết bị cá nhân cho công việc liên quan đến dữ liệu Bí mật trở lên.
+- Khóa màn hình khi rời khỏi máy.
+- Không cài phần mềm không được IT phê duyệt.
+
+## 3. Xử lý sự cố bảo mật
+- Báo cáo ngay lập tức cho IT Security qua email: security@appota.com.
+- Không tự ý xử lý sự cố bảo mật.

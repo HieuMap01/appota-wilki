@@ -1,0 +1,32 @@
+# Environment
+.env
+*.env
+
+# ChromaDB data (local DB files)
+chromadb_store/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets (just in case)
+*.key
+secrets.json

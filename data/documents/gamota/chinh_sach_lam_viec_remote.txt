@@ -1,0 +1,25 @@
+---
+doc_id: DOC-GMT-HR-003
+doc_family_id: chinh-sach-lam-viec-remote
+don_vi: gamota
+cap_bac: ["nhan_vien", "team_lead", "manager", "director"]
+ngay_hieu_luc: "2024-06-01"
+trang_thai: active
+uu_tien_cap: 2
+loai_tai_lieu: HR
+---
+
+# CHÍNH SÁCH LÀM VIỆC REMOTE — GAMOTA
+
+## 1. Hình thức làm việc
+- **Hybrid mặc định:** 3 ngày văn phòng, 2 ngày remote mỗi tuần.
+- **Full remote:** Chỉ áp dụng cho Senior Engineer trở lên, cần phê duyệt của Manager và HR.
+
+## 2. Yêu cầu khi làm việc remote
+- Có kết nối internet ổn định (tối thiểu 50Mbps).
+- Online trên Slack trong giờ làm việc (9:00-18:00).
+- Tham gia đầy đủ các cuộc họp team qua video.
+
+## 3. Thiết bị và bảo mật
+- Sử dụng VPN công ty khi truy cập hệ thống nội bộ.
+- Không làm việc tại quán cà phê hoặc nơi công cộng với màn hình hiển thị dữ liệu nhạy cảm.

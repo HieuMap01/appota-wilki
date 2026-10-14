@@ -1,0 +1,26 @@
+---
+doc_id: DOC-TD-HR-003
+doc_family_id: quy-dinh-dao-tao
+don_vi: tap_doan
+cap_bac: ["nhan_vien", "team_lead", "manager", "director"]
+ngay_hieu_luc: "2024-01-01"
+trang_thai: active
+uu_tien_cap: 1
+loai_tai_lieu: HR
+---
+
+# QUY ĐỊNH ĐÀO TẠO VÀ PHÁT TRIỂN — APPOTA GROUP
+
+## 1. Ngân sách đào tạo
+- Mỗi nhân viên: tối đa **10 triệu đồng/năm** cho đào tạo bên ngoài.
+- Team Lead trở lên: tối đa **20 triệu đồng/năm**.
+- Phải được phê duyệt trước khi đăng ký khóa học.
+
+## 2. Đào tạo bắt buộc hàng năm
+- An toàn thông tin và bảo mật dữ liệu.
+- Phòng chống quấy rối tại nơi làm việc.
+- Cập nhật quy trình nội bộ.
+
+## 3. Hỗ trợ học tiếng Anh
+- Công ty hỗ trợ 50% chi phí học tiếng Anh tại các trung tâm được phê duyệt.
+- Tối đa 5 triệu đồng/năm.

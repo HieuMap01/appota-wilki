@@ -1,0 +1,26 @@
+---
+doc_id: DOC-APY-COM-001
+doc_family_id: quy-dinh-compliance
+don_vi: appota_pay
+cap_bac: ["nhan_vien", "team_lead", "manager", "director"]
+ngay_hieu_luc: "2024-01-01"
+trang_thai: active
+uu_tien_cap: 2
+loai_tai_lieu: Compliance
+---
+
+# QUY ĐỊNH TUÂN THỦ (COMPLIANCE) — APPOTA PAY
+**Áp dụng cho:** Toàn bộ nhân sự Appota Pay
+
+## 1. Tuân thủ quy định NHNN
+- Tất cả giao dịch trên 500 triệu đồng phải có phê duyệt đặc biệt.
+- Báo cáo đáng ngờ (STR) phải được nộp trong vòng 3 ngày làm việc.
+- Nhân sự tiếp xúc với dữ liệu khách hàng phải qua đào tạo AML hàng năm.
+
+## 2. Bảo vệ dữ liệu khách hàng
+- Dữ liệu khách hàng KHÔNG được xuất ra ngoài hệ thống nội bộ.
+- Truy cập vào dữ liệu khách hàng phải được log và audit 6 tháng/lần.
+
+## 3. Xử lý xung đột lợi ích
+- Khai báo tất cả lợi ích cá nhân liên quan đến quyết định kinh doanh.
+- Không giao dịch tài chính cá nhân với các đối tác của Appota Pay.

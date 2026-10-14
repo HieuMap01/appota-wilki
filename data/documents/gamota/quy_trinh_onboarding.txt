@@ -1,0 +1,32 @@
+---
+doc_id: DOC-GMT-HR-002
+doc_family_id: quy-trinh-onboarding
+don_vi: gamota
+cap_bac: ["nhan_vien", "team_lead", "manager", "director"]
+ngay_hieu_luc: "2024-03-01"
+trang_thai: active
+uu_tien_cap: 2
+loai_tai_lieu: HR
+---
+
+# QUY TRÌNH ONBOARDING — GAMOTA
+**Áp dụng cho:** Nhân viên mới của Gamota
+
+## Tuần 1: Thiết lập môi trường làm việc
+- Ngày 1: Ký hợp đồng, nhận MacBook Pro, setup dev environment (Jira, GitHub, Slack, Confluence).
+- Ngày 2: Giới thiệu tech stack và kiến trúc hệ thống game.
+- Ngày 3-5: Game immersion — chơi và review các game đang vận hành.
+
+## Tuần 2: Deep dive kỹ thuật
+- Pair programming với senior trong team.
+- Review codebase của project đang active.
+- First task: Bug fix hoặc small feature.
+
+## Tháng 2-3: Ownership đầu tiên
+- Nhận ownership một module nhỏ.
+- Tham gia sprint planning và retrospective.
+- Thực hiện code review độc lập.
+
+## Lưu ý đặc thù Gamota
+- Quy trình này bổ sung và ưu tiên hơn quy trình chung của Tập đoàn.
+- Gamota có buddy system riêng: mỗi nhân viên mới được pair với 1 buddy có kinh nghiệm.

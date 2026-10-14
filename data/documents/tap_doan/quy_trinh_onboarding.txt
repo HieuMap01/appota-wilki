@@ -1,0 +1,28 @@
+---
+doc_id: DOC-TD-HR-002
+doc_family_id: quy-trinh-onboarding
+don_vi: tap_doan
+cap_bac: ["nhan_vien", "team_lead", "manager", "director"]
+ngay_hieu_luc: "2024-03-01"
+trang_thai: active
+uu_tien_cap: 1
+loai_tai_lieu: HR
+---
+
+# QUY TRÌNH ONBOARDING NHÂN VIÊN MỚI — APPOTA GROUP
+**Áp dụng cho:** Toàn bộ nhân viên mới của Appota Group
+
+## Tuần 1: Hành chính và Định hướng
+- Ngày 1: Ký hợp đồng, nhận thiết bị, setup tài khoản IT.
+- Ngày 2-3: Orientation về văn hóa công ty, giá trị cốt lõi, lịch sử Appota.
+- Ngày 4-5: Gặp gỡ các bộ phận liên quan, tour văn phòng.
+
+## Tuần 2-4: Hòa nhập nghiệp vụ
+- Mentor phân công trong 30 ngày đầu.
+- Daily check-in với Team Lead trong 2 tuần đầu.
+- Hoàn thành e-learning bắt buộc: An toàn thông tin, PCCC, Nội quy.
+
+## Tháng 2-3: Thử việc chính thức
+- OKR thử việc được thiết lập trong tuần 1.
+- Review giữa kỳ (tháng 2).
+- Đánh giá kết thúc thử việc và quyết định chính thức hóa.
