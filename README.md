@@ -43,15 +43,24 @@ Câu trả lời có nguồn trích dẫn
 
 ---
 
-## Cài đặt & Chạy Local
+## Cài đặt & Khởi chạy
 
-### 1. Clone repo
+### Cách 1: Chạy bằng Docker (Khuyên dùng cho máy khác / Giám khảo test)
+Chỉ cần cài đặt Docker Desktop, mở terminal tại thư mục dự án và chạy:
 ```bash
-git clone https://github.com/YOUR_USERNAME/appota-wiki.git
-cd appota-wiki
-```
+# 1. Tạo file .env và điền GEMINI_API_KEY
+cp .env.example .env
 
-### 2. Tạo virtual environment
+# 2. Khởi chạy toàn bộ hệ thống (tự động build, ingest dữ liệu và mở app)
+docker compose up --build
+```
+Mở trình duyệt truy cập: **http://localhost:8501**
+
+---
+
+### Cách 2: Chạy trực tiếp bằng Python (Local)
+
+1. **Clone repo & tạo môi trường:**
 ```bash
 python -m venv venv
 # Windows:
@@ -60,28 +69,23 @@ venv\Scripts\activate
 source venv/bin/activate
 ```
 
-### 3. Cài dependencies
+2. **Cài dependencies:**
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Cấu hình API Key
+3. **Cấu hình API Key:**
 ```bash
 cp .env.example .env
-# Mở .env và điền GEMINI_API_KEY của bạn
-# Lấy free API key tại: https://aistudio.google.com/
+# Mở file .env và điền GEMINI_API_KEY
 ```
 
-### 5. Ingest dữ liệu giả lập
+4. **Ingest dữ liệu & Khởi chạy:**
 ```bash
 python src/ingest.py --reset
-```
-
-### 6. Chạy ứng dụng
-```bash
 python -m streamlit run app.py
 ```
-Mở trình duyệt tại: http://localhost:8501
+Mở trình duyệt tại: **http://localhost:8501**
 
 ---
 

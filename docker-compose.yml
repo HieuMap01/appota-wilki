@@ -1,0 +1,13 @@
+services:
+  appota-wiki:
+    build: .
+    container_name: appota-wiki-app
+    ports:
+      - "8501:8501"
+    environment:
+      - PYTHONIOENCODING=utf-8
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+    env_file:
+      - path: .env
+        required: false
+    restart: unless-stopped

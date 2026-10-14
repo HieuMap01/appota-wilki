@@ -2,7 +2,7 @@
 **Dự án:** Appota Internal Wiki — Hệ thống RAG Phân quyền & Quản trị Phiên bản Tri thức  
 **Tác giả:** Ứng viên NextGen 2026 (Bài test B)  
 **Thời gian hoàn thành:** Mission 2 MVP (3 ngày)  
-**Mã nguồn:** Local Prototype (`d:\VinUni\testApo\appota-wiki`)  
+**Mã nguồn:** Local Prototype (`d:\testApo\appota-wiki`)  
 **Giao diện chạy thử:** `http://localhost:8501` (Streamlit)
 
 ---
@@ -113,17 +113,27 @@ Format chuẩn: **Kỳ vọng → Kết quả thực tế → Đạt/Chưa đạ
 
 ## PHẦN 4: HƯỚNG DẪN CÀI ĐẶT & CHẠY THỬ (DÀNH CHO NGƯỜI ĐÁNH GIÁ)
 
+### Lựa chọn 1: Chạy bằng Docker (Khuyên dùng cho máy khác — 1 lệnh là xong)
 ```bash
-# 1. Di chuyển vào thư mục dự án
-cd appota-wiki
+# 1. Cấu hình file .env
+cp .env.example .env  # điền GEMINI_API_KEY
 
-# 2. Cài đặt môi trường
+# 2. Khởi chạy toàn bộ hệ thống
+docker compose up --build
+```
+Mở trình duyệt tại `http://localhost:8501`.
+
+---
+
+### Lựa chọn 2: Chạy trực tiếp qua Python (Local)
+```bash
+# 1. Cài đặt môi trường
 pip install -r requirements.txt
 
-# 3. Chạy kiểm thử tự động toàn bộ 8 test cases
+# 2. Chạy kiểm thử tự động toàn bộ 8 test cases
 python tests/test_cases.py
 
-# 4. Khởi chạy giao diện web tương tác
+# 3. Khởi chạy giao diện web tương tác
 python -m streamlit run app.py
 ```
 Giao diện sẽ mở tại `http://localhost:8501`. Người đánh giá có thể chuyển đổi danh tính ở thanh bên trái và nhấp vào các câu hỏi gợi ý để kiểm chứng ngay lập tức.
