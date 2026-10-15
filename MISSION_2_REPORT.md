@@ -71,47 +71,8 @@ Format chuẩn: **Kỳ vọng → Kết quả thực tế → Đạt/Chưa đạ
 | **TC-06** | Câu hỏi mơ hồ, thiếu ngữ cảnh cụ thể | Trần Thị B (Nhân viên Appota Pay) | "Tôi cần biết về các quy định" | [Tình huống khó] Hệ thống quan sát: Không bịa đặt, liệt kê hoặc gợi ý các quy định liên quan trong phạm vi | Hệ thống trả về quy định nền tảng (DOC-TD-HR-001) trong phạm vi cho phép | ⚠️ **ĐẠT** (Tình huống khó) | Với câu hỏi mơ hồ, hệ thống cần thêm tính năng gợi ý chủ đề (Faceted navigation) hoặc hỏi lại người dùng (Clarification). |
 | **TC-07** | Phân quyền chéo đơn vị / cấp bậc phức tạp | Lê Văn C (Team Lead Gamota) | "Cơ cấu lương thưởng Director cụ thể là bao nhiêu?" | [Dự kiến thất bại một phần] Team Lead không được xem lương Director dù thuộc đơn vị thành viên | DOC-TD-FIN-001 bị chặn thành công (`chunks = 0`), không lộ thông tin lương | ⚠️ **ĐẠT (Bảo mật)** (Biết hạn chế) | MVP xử lý tốt việc chặn quyền, nhưng thông điệp từ chối chưa phân biệt rõ giữa "không có tài liệu" và "tài liệu bị hạn chế quyền". Cần cải thiện UX ở bản Production. |
 
----
 
-## PHẦN 3: KỊCH BẢN VIDEO THUYẾT TRÌNH & DEMO (5 PHÚT)
-
-*Kịch bản thiết kế bám sát từng giây theo tiêu chí chấm điểm của Ban Giám Khảo Appota:*
-
-### [00:00 - 00:45] Mở đầu & Bài toán cốt lõi
-- **Lời thoại:** "Kính chào BGK và hội đồng đánh giá Appota NextGen 2026. Ở Mission 1, chúng ta đã phân tích bài toán tri thức nội bộ tại Appota Group — một tổ chức đa cấp bậc, đa công ty thành viên. Vấn đề nhức nhối nhất là: **Làm sao để cùng một câu hỏi, hai nhân sự ở hai đơn vị khác nhau nhận đúng quy định của mình mà không bị nhầm lẫn hay lộ lọt tài liệu ngoài phạm vi?** Hôm nay tại Mission 2, tôi mang đến bản Prototype chạy được thực tế của **Appota Internal Wiki** để chứng minh giả thuyết cốt lõi này."
-- **Hình ảnh hiển thị:** Màn hình chào Streamlit UI với logo Appota Internal Wiki.
-
-### [00:45 - 01:30] Phần quan trọng nhất chọn để chứng minh & Kiến trúc giải pháp
-- **Lời thoại:** "Thay vì làm một chatbot giao diện lung linh nhưng trả lời ngẫu nhiên, phần quan trọng nhất tôi chọn hiện thực hóa là **Permission-Aware Metadata Pre-Filtering & Priority Scoring**. Kiến trúc gồm 4 bước: Lọc quyền cứng tại ChromaDB qua metadata WHERE clause; Vector similarity search; Chấm điểm ưu tiên cấp đơn vị cơ sở đè lên cấp tập đoàn; và System Prompt Guardrail với Gemini LLM."
-- **Hình ảnh hiển thị:** Sơ đồ kiến trúc 4 bước hoặc slide tóm tắt kiến trúc.
-
-### [01:30 - 03:15] Demo trực tiếp sản phẩm (Live Demo)
-- **Thao tác 1 (Core loop - Cùng câu hỏi, 2 người khác nhau):**
-  - Chọn danh tính: **Nguyễn Văn A (Nhân viên Gamota)**.
-  - Gõ câu hỏi: *"Tôi được nghỉ bao nhiêu ngày phép mỗi năm?"*
-  - **Kết quả:** Trả về **15 ngày**, có ngày nghỉ sinh nhật và mental health. Trích dẫn rõ `DOC-GMT-HR-001`.
-  - Đổi danh tính: **Trần Thị B (Nhân viên Appota Pay)**.
-  - Gõ lại nguyên văn câu hỏi đó: *"Tôi được nghỉ bao nhiêu ngày phép mỗi năm?"*
-  - **Kết quả:** Trả về **14 ngày**, giải thích rõ đặc thù Fintech tuân thủ SBV. Trích dẫn `DOC-APY-HR-001`.
-  - **Nhấn mạnh:** Cùng câu hỏi, ngữ cảnh người hỏi thay đổi -> Hệ thống tự động phục vụ chính xác chính sách riêng của đơn vị đó!
-- **Thao tác 2 (Bảo mật quyền truy cập):**
-  - Với tài khoản nhân viên thường, hỏi: *"Chính sách lương thưởng cấp Manager thế nào?"*
-  - **Kết quả:** Hệ thống từ chối truy cập ngay lập tức, không để lộ bất kỳ dòng nào của tài liệu DOC-TD-FIN-001.
-
-### [03:15 - 04:15] Tình huống khó, kiểm thử và xử lý xung đột phiên bản
-- **Thao tác 3 (Xử lý phiên bản cũ):**
-  - Hỏi quy trình nghỉ phép Gamota -> Hệ thống chỉ lấy bản 2024, bỏ qua bản 2023 đã archived.
-- **Thao tác 4 (Không có dữ liệu):**
-  - Hỏi quy định phòng gym -> Hệ thống trung thực trả lời không có dữ liệu, không hề bịa chuyện.
-- **Chiếu màn hình terminal:** 
-  - Show kết quả chạy `python tests/test_cases.py` với 8/8 test cases xanh rực.
-
-### [04:15 - 05:00] Hạn chế của MVP, Bài học kinh nghiệm & Kết luận
-- **Lời thoại:** "Không né tránh khuyết điểm, MVP này hiện còn 3 hạn chế chính: Thứ nhất, danh tính hiện đang là Mock Identity qua dropdown thay vì SSO; Thứ hai, độ chính xác tìm kiếm tiếng Việt phụ thuộc vào việc có dấu đầy đủ; Thứ ba, thông báo từ chối quyền chưa phân biệt rõ ràng với thông báo không tìm thấy tài liệu. Tuy nhiên, MVP đã chứng minh trọn vẹn: **Hướng tiếp cận RAG phân quyền cấp Database và Ưu tiên theo cấu trúc doanh nghiệp là hoàn toàn khả thi và sẵn sàng mở rộng.** Cảm ơn BGK đã lắng nghe!"
-
----
-
-## PHẦN 4: HƯỚNG DẪN CÀI ĐẶT & CHẠY THỬ (DÀNH CHO NGƯỜI ĐÁNH GIÁ)
+## PHẦN 3: HƯỚNG DẪN CÀI ĐẶT & CHẠY THỬ (DÀNH CHO NGƯỜI ĐÁNH GIÁ)
 
 ### Lựa chọn 1: Chạy bằng Docker (Khuyên dùng cho máy khác — 1 lệnh là xong)
 ```bash
@@ -123,7 +84,7 @@ docker compose up --build
 ```
 Mở trình duyệt tại `http://localhost:8501`.
 
----
+---   
 
 ### Lựa chọn 2: Chạy trực tiếp qua Python (Local)
 ```bash
