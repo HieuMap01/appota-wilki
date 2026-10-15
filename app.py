@@ -3,10 +3,26 @@ Streamlit UI for Appota Internal Wiki RAG system.
 Run: streamlit run app.py
 """
 import sys
+import subprocess
 from pathlib import Path
 import streamlit as st
 
 sys.path.insert(0, str(Path(__file__).parent / "src"))
+
+# ── Auto-ingest on cold start (cloud / Docker / first run) ────────
+# If ChromaDB store does not exist or is empty, run ingest automatically.
+@st.cache_resource(show_spinner="Khởi tạo cơ sở dữ liệu tri thức...")
+def _auto_ingest():
+    chroma_dir = Path(__file__).parent / "chromadb_store"
+    if not chroma_dir.exists() or not any(chroma_dir.iterdir()):
+        subprocess.run(
+            [sys.executable, str(Path(__file__).parent / "src" / "ingest.py"), "--reset"],
+            check=False,
+        )
+    return True
+
+_auto_ingest()
+
 from pipeline import run_pipeline, USER_PROFILES
 
 # ── Page config ───────────────────────────────────────────────────
